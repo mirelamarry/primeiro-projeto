@@ -1,0 +1,91 @@
+body {
+    background-color: #C0C0C0; 
+}
+
+h1 {
+    color: #fdfdfd;
+    text-align: center;
+    font-size: 46px;
+    font-family: Serif;
+    font-style: oblique;
+    background-color: #848482;
+}
+
+.navegar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav { 
+    font-size: 26px;
+    font-family: Serif;
+    background-color: #848482;
+    border: 2px solid #fdfdfd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fdfdfd; 
+}
+
+.img-outono {
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    border: 2px solid #848482;
+}
+
+#card {
+    padding-left: 20px;
+    border-style: double;
+    border-color: #848482;
+    height: 30px;
+    width: 390px;
+    text-align: justify;
+    color: #2A3439;
+    font-style: italic;
+}
+
+.cupao {
+    padding-left: 20px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.desing {
+    font-size: 16px;
+    font-family: Serif;
+    background-color: #848482;
+    border: 2px solid #fdfdfd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #848482;
+}
+
+.atendimento {
+    padding: 10px;
+    border: groove #fdfdfd;
+    font-family: serif;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .apresentacao {
+        grid-template-columns: 1fr;
+    }
+}
